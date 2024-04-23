@@ -1,5 +1,5 @@
 # Rick and Morty Android
-This is a sample android app that use the MVI architecture design pattern.
+This is a sample Android app that implements the MVI architecture design pattern. The app consumes data from the open [Rick And Morty Api](https://rickandmortyapi.com/).
 
 ### Screenshots
 
