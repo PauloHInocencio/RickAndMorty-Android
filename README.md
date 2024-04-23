@@ -1,22 +1,24 @@
-<h1 align="center">Rick and Morty Android</h1></br>
+# Rick and Morty Android
+This is a sample android app that use the MVI architecture design pattern.
 
-## Screenshots
+### Screenshots
 
-### Android
 
 | <img width="240" src="./screenshots/characters_list.png" /> | <img width="240" src="./screenshots/character_detail.png" /> | <img width="240" src="./screenshots/characters_search.png" /> |
 |-------------------------------------------------------------|--------------------------------------------------------------|---------------------------------------------------------------|
 
 <br/>
 
-## Technologies
+### Technologies
 
-#### Android
-
-* [Android Jetpack](https://developer.android.com/jetpack)
-    * [Android KTX](https://developer.android.com/kotlin/ktx)
-* [Kotlin & Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
-    * [Flow](https://kotlinlang.org/docs/flow.html)
+*   User Interface built with **[Jetpack Compose](https://developer.android.com/jetpack/compose)**
+*   A single-activity architecture, using **[Navigation Compose](https://developer.android.com/jetpack/compose/navigation)**.
+*   A presentation layer that contains a Compose screen (View) and a **ViewModel** per screen (or feature).
+*   The networking layer that uses **[Retrofit](https://square.github.io/retrofit/)**
+*   Reactive UIs using **[Flow](https://developer.android.com/kotlin/flow)** and **[coroutines](https://kotlinlang.org/docs/coroutines-overview.html)** for asynchronous operations.
+*   ViewModels integration tests using **[Turbine](https://github.com/cashapp/turbine)**
+*   E2E testing using **[Compose Test Rule](https://developer.android.com/reference/kotlin/androidx/compose/ui/test/junit4/ComposeTestRule)** and **[HiltAndroidRule](https://dagger.dev/api/latest/dagger/hilt/android/testing/HiltAndroidRule.html)**
+*   Dependency injection using [Hilt](https://developer.android.com/training/dependency-injection/hilt-android).
 
 
 
